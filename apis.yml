@@ -1,7 +1,25 @@
 aid: streamloan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/streamloan.png
 name: StreamLoan
-description: StreamLoan is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: StreamLoan was a digital mortgage software company offering a point-of-sale (POS) and
+  loan-origination platform that connected loan officers, borrowers, and real-estate agents to convert
+  leads into funded home loans faster. Its toolkit spanned lead management, borrower communication and
+  collaboration, workflow automation, document collection, security/privacy controls, and a branded
+  borrower experience aimed at cutting the 40+ day mortgage close cycle. Backed by 500 Global. As of this
+  enrichment pass the company appears defunct - streamloan.io is parked on a registrar IP and every
+  developer/app/api/docs/portal subdomain is unreachable (DNS records remain but no host responds), and
+  no public API or developer program was ever documented.
 url: https://raw.githubusercontent.com/api-evangelist/streamloan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct
 tags:
 - Company
+- Mortgage
+- Lending
+- Loan Origination
+- Point of Sale
+- Fintech
+- Real Estate
+- SaaS
+- Banking
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/streamloan-domain-security.yml
 - type: Website
   url: https://streamloan.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
