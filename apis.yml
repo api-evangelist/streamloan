@@ -32,6 +32,9 @@ description: StreamLoan was a digital mortgage software company offering a point
   developer/app/api/docs/portal subdomain is unreachable (DNS records remain but no host responds), and
   no public API or developer program was ever documented.
 url: https://raw.githubusercontent.com/api-evangelist/streamloan/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of this enrichment pass the company appears defunct - streamloan.io is parked on a registrar IP and every developer/app/api/docs/portal subdomain is unreachable (DNS records remain but no host resp"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
