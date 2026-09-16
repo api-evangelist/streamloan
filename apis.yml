@@ -45,7 +45,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 x-status: defunct
 tags:
 - Company
@@ -58,6 +58,7 @@ tags:
 - Software-as-a-Service
 - Banking
 - Financial-Services
+- Defunct
 tags_raw:
 - Company
 - Mortgage
@@ -69,6 +70,7 @@ tags_raw:
 - SaaS
 - Banking
 - Financial Services
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
